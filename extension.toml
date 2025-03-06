@@ -1,0 +1,12 @@
+id = "stylelint-plus"
+name = "Stylelint-plus"
+version = "0.0.1"
+schema_version = 1
+authors = ["Astrid Planchon <v3rmine@astriiid.fr>"]
+description = "Language server extension providing diagnostics and auto-fix for Stylelint using btmatcuk/stylelint-lsp"
+repository = "https://github.com/v3rmine/zed-stylelint-plus"
+
+[language_servers.stylelint-plus]
+name = "Stylelint Language Server"
+language = "CSS"
+languages = ["CSS", "SCSS", "JavaScript", "LESS"]
