@@ -4,7 +4,9 @@
 
 Why fork [florian-sanders/zed-stylelint](https://github.com/florian-sanders/zed-stylelint) ?
 
-Well I could not make it work on LESS files, and I knew that [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) used [bmatcuk/stylelint-lsp](https://github.com/bmatcuk/stylelint-lsp) to support stylelint so I changed the source of the lsp and it seems to work at least for the diagnostics.
+~~Well I could not make it work on LESS files, and I knew that [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) used [bmatcuk/stylelint-lsp](https://github.com/bmatcuk/stylelint-lsp) to support stylelint so I changed the source of the lsp and it seems to work at least for the diagnostics.~~
+
+**Just use the original repository it works with LESS now!**
 
 ## How to configure?
 
